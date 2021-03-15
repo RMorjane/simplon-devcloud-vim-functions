@@ -4,6 +4,6 @@ on:
 jobs:
   MyFirstJob:
     runs-on: ubuntu-latest
-      steps:
-       - name: Fist step
-         run: "hello world"
+    steps:
+      - name: Fist step
+        run: "hello world"
