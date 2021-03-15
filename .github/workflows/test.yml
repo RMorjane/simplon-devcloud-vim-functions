@@ -5,6 +5,6 @@ jobs:
   StrReverseJob:
     runs-on: ubuntu-latest
     steps:
-      - name: First step
+      - name: new step
         uses: action@test_yml2
         run: python3 ../../test_str_reverse.py
