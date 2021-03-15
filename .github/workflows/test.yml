@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: First step
-        run: python3.9 ../../test_str_reverse.py
+        run: python ../../test_str_reverse.py
