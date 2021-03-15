@@ -1,9 +1,9 @@
 name: Workflow test Hello World
 on:
-        - push
+ - push
 jobs:
-        MyFirstJob:
-                runs-on: ubuntu-latest
-                steps:
-                        - name: Fist step
-                          run: "hello world"
+  MyFirstJob:
+    runs-on: ubuntu-latest
+      steps:
+       - name: Fist step
+         run: "hello world"
