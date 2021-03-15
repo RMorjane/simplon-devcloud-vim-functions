@@ -1,9 +1,9 @@
-name: Workflow test Hello World
+name: Workflow test functions
 on:
  - push
 jobs:
-  MyFirstJob:
+  StrReverseJob:
     runs-on: ubuntu-latest
     steps:
-      - name: Fist step
-        run: echo "hello world"
+      - name: First step
+        run: python3.9 ../../test_str_reverse.py
